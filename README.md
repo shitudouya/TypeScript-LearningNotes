@@ -8,9 +8,9 @@ TypeScript学习笔记（基于React + Ant Design + markdown-it）
 
 最新更新：`2020/5/1`
 
-##### 安装并启动
+#### 1.安装并启动
 
-后台 
+**后台**
 
 `cd server`
 
@@ -18,13 +18,13 @@ TypeScript学习笔记（基于React + Ant Design + markdown-it）
 
 `node app.js` 或 `nodemon app.js`
 
-客户端
+**客户端**
 
 `npm i`
 
 `npm start`
 
-##### 代码高亮
+#### 2.代码高亮
 
 由于React配置问题，部分代码不高亮显示，你需要手动修改配置高亮
 
