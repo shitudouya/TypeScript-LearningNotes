@@ -13,7 +13,7 @@ const menus = [
   { key: "/interface", title: "接口", path: "/interface" },
   { key: "/class", title: "类", path: "/class" },
   { key: "/genericity", title: "泛型", path: "/genericity" },
-  { key: "/ module", title: "模块", path: "/ module" },
+  { key: "/module", title: "模块", path: "/module" },
   { key: "/namespace", title: "命名空间", path: "/namespace" },
   { key: "/merge", title: "声明合并", path: "/merge" },
   { key: "/decorator", title: "装饰器", path: "/decorator" },

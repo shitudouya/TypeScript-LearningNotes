@@ -29,24 +29,13 @@ export default class preface extends Component {
       );
     }
   };
-  //如果有toc则去除侧边toc占用的空间
-  hasTOC = () => {
-    let tocs = $(".toc");
-    let content = $(".main_content");
-    if (tocs[0]) {
-      content.removeClass("full-content");
-    } else {
-      content.addClass("full-content");
-    }
-  };
+
   renderHtmlContent = (id) => {
     getHTMLContent({ title: id }).then((res) => {
       this.setState({
         htmlContent: res.data.data,
       });
-
       setTimeout(() => {
-        this.hasTOC();
         Prism.highlightAll();
         this.handleHighlightToc();
       }, 100);

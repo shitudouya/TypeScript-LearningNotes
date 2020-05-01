@@ -1,3 +1,7 @@
+${toc}
+
+##### 环境配置
+
 为了我们之后的学习和使用方便，我们需要配置一个webpack的环境
 
 > 注意：webpack和typescript的环境安装依赖node，所以需要先保证电脑上有node和npm环境
