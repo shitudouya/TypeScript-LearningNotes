@@ -1,0 +1,77 @@
+.main_content {
+  width: 80%;
+  padding: 30px 180px 30px 30px;
+  strong {
+    color: #000;
+  }
+  ul {
+    padding: 0px 20px;
+    li {
+      line-height: 20px;
+      code {
+        background-color: #fff5f5;
+        color: #ff502c;
+        padding: 0px 6px;
+      }
+    }
+  }
+  p {
+    color: rgba($color: #000000, $alpha: 0.85);
+    img {
+      width: 200px;
+    }
+    img[src="https://fast.tudoublog.com/images/typescript.jpg"]
+    {
+      width: 50%;
+    }
+    code {
+      background-color: #fff5f5;
+      color: #ff502c;
+      padding: 0px 6px;
+    }
+  }
+  .toc {
+    position: fixed;
+    right: 200px;
+    top: 80px;
+    font-size: 13px;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        padding-left: 14px;
+        border-left: 1px solid #ddd;
+        a {
+          line-height: 20px;
+          color: #333;
+        }
+      }
+      li.active {
+        border-left: 1px solid #007acc;
+        a {
+          color: #007acc;
+        }
+      }
+    }
+  }
+
+  h5 {
+    font-size: 18px;
+    color: #000;
+    line-height: 50px;
+    a.header-anchor {
+      color: #007acc;
+    }
+  }
+}
+
+@media screen and (max-width:850px) {
+  .main_content {
+    width: 100%;
+    padding: 20px
+  }
+  .toc {
+    display: none;
+  }
+}
