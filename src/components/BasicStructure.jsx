@@ -16,6 +16,7 @@ class CommonAside extends Component {
           </div>
           <h1>TypeScript 学习笔记</h1>
           <div className="right">
+            <p>Version 0.0.1</p>
             <a target="_blank" title="GitHub" rel="noopener noreferrer" href="https://github.com/shitudouya/TypeScript-LearningNotes">
               <svg data-icon="github" className="git-svg" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                 <path
