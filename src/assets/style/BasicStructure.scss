@@ -6,6 +6,9 @@
   ::-webkit-scrollbar {
     display: none;
   }
+  .ant-layout-sider {
+    z-index: 999;
+  }
   .ant-layout-header {
     background-color: #20232a;
     padding: 0 20px;
