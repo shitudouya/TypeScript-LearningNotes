@@ -3,6 +3,7 @@ import { getHTMLContent } from "../../api/api";
 import Prism from "prismjs";
 import $ from "jquery";
 import { throttle } from "../../utils/common";
+import NotFound from '../NotFound/index'
 import "../../assets/style/prism.css";
 import "./style.scss";
 
@@ -53,6 +54,9 @@ export default class preface extends Component {
   }
   render() {
     const { htmlContent } = this.state;
-    return <div ref={(node) => (this.node = node)} className="main_content" dangerouslySetInnerHTML={{ __html: htmlContent }}></div>;
+    if(htmlContent!=="null") {
+      return <div ref={(node) => (this.node = node)} className="main_content" dangerouslySetInnerHTML={{ __html: htmlContent }}></div>;
+    } 
+    return <NotFound/>
   }
 }
