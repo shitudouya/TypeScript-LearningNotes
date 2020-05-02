@@ -11,7 +11,7 @@
     "babel-plugin-import": "^1.13.0",
     "babel-plugin-prismjs": "^2.0.1",
     "customize-cra": "^0.9.1",
-    "jquery": "1.12.4",
+    "jquery": "3.5.0",
     "node-sass": "^4.14.0",
     "nprogress": "^0.2.0",
     "prismjs": "^1.20.0",
