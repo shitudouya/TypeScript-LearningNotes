@@ -4,9 +4,9 @@ TypeScript学习笔记（基于React + Ant Design + markdown-it）
 
 中文文档地址：[https://ts.tudoublog.com/preface](https://ts.tudoublog.com/preface)
 
-当前版本：`0.0.1`
+当前版本：`0.0.2`
 
-最新更新：`2020/5/1`
+最新更新：`2020/7/24`
 
 ### 1.安装并启动
 
