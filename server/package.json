@@ -13,7 +13,7 @@
     "koa": "^2.11.0",
     "koa-router": "^8.0.8",
     "koa2-cors": "^2.0.6",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-anchor": "^5.2.7",
     "markdown-it-toc-done-right": "^4.1.0"
   }
